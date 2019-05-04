@@ -1,0 +1,197 @@
+/****
+	Credit by Md. Shobuj
+****/
+
+
+/****** scrollbar *******/
+body::-webkit-scrollbar {
+    width: .8em;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 2px 0 4px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(126, 189, 36, .7);
+  outline: 1px solid slategrey;
+}
+
+
+/******** Change Browser Highlight Colour. Support all browser without mozilla. Here are an another selection for mozilla ****/
+::selection {background: rgba(126, 189, 36, .5);}
+::-moz-selection {background: rgba(126, 189, 36, .5);}
+
+
+/******** Start Style Css********/
+* {margin: 0; padding:0; font-family: times;}
+div.gap {height: 80px;}
+h3 {font-size: 25px; font-weight: normal;}
+h6 {font-size: 15px; color: gray; font-style: italic; margin-top: 5px; font-weight: normal;}
+
+
+/********** top background *************/
+div.just_top {width: 100%; position: absolute;}
+div.top_bg {background-color: #262626; width: 100%; height: 315px;}
+div.top_green_one {background-color: #7EBD24; width: 100%; height: 235px; border-top: 1px solid white;}
+div.top_green_two {background-color: #639C1B; width: 100%; height: 235px; border-top: 1px solid white;}
+div.bg_bottom_img {width: 100%; border-top: 1px solid white;}
+div.bg_bottom_img img#one {width: 100%;}
+
+/************** main ****************/
+/*header*/
+div.main {width: 980px; margin: 0 auto; position: relative; box-shadow: 0px 0px 6px #262626;}
+div.header {}
+div.tile {background-color: #343434; height: 80px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+div.tile h1#ti {float: left; margin-left: 50px; margin-top: 30px; color: white; font-size: 40px; font-weight: normal;}
+div.tile h1#d {float: left; margin-top: 33px; color: white; background-color: #7EBD24; font-size: 35px; padding-left: 10px; padding-right: 10px; margin-left: 5px;}
+div.tile ul.tile_ul {float: right; margin-top: 45px; margin-right: 40px;}
+div.tile ul.tile_ul li {display: inline; padding-left: 40px;}
+div.tile ul.tile_ul li a {color: white; text-decoration: none; font-family: tahoma; font-size: 15px;}
+div.tile ul.tile_ul li a:hover,a#t_home {color: #80BE2B;}
+div.header_style {background: url(image/header_style.png) no-repeat; width: 100%; height: 40px; background-color: white;}
+
+/*Qoute*/
+div.qoute {background-color: white; height: 114px;}
+div.qoute h2#sup {float: left; font-size: 50px; font-weight: bolder; padding-left: 100px; margin-right: 20px; color: #7EBD24;}
+div.qoute h2#sub {float: left; font-size: 50px; font-weight: bolder; padding-right: 80px; padding-left: 20px; margin-top: 40px; margin-bottom: -35px; color: #7EBD24;}
+div.qoute h2#site_caption {font-size: 30px; font-weight: normal; width: 700px; float: left; margin-top: 20px; }
+div.qoute h5#site_sub_caption {font-size: 20px; color: gray; font-weight: normal; font-style: italic;}
+
+/*banner*/
+div.banner {background-color: white;}
+div.banner img#banner_img {margin-left: 20px;}
+div.banner img#shadow {margin-left: 20px; margin-bottom: 30px;}
+
+/*content*/
+div.content {background-color: white; padding-top: 30px; overflow: hidden;}
+div.content p {color: gray; font-family: tahoma; font-size: 13px; line-height: 1.5em; margin-top: 20px; }
+div.flexible {float: left; width: 420px; margin-left: 50px;}
+div.flexible img {float: left; margin-bottom: 90px; margin-right: 10px; margin-top: 10px;}
+div.pixel {float: right; width: 430px; margin-right: 50px;}
+div.pixel img {float: left; margin-bottom: 90px; margin-right: 30px; margin-top: 10px;}
+div.c_care {float: left; width: 420px; margin-left: 55px;}
+div.c_care img {float: left; margin-bottom: 90px; margin-right: 30px; margin-top: 10px;}
+div.multi {float: right; width: 410px; margin-right: 40px;}
+div.multi img {float: left; margin-bottom: 90px; margin-right: 30px; margin-top: 10px;}
+
+div.content a {float: right; color: black; text-decoration: none; font-size: 18px; margin-top: 10px;}
+div.content a:hover {color: #7EBD24;}
+div.content img.rig {padding-right: 20px;}
+div.content img#a_img {float: right; padding-top: 10px; margin-left: 8px;}
+
+/*portfolio*/
+div.portfolio {overflow: hidden; margin-bottom: 70px;}
+div.portfolio h3 {margin-left: 38px; margin-bottom: 40px;}
+div.project_one {margin-left: 38px; float: left;}
+div.sub_pone {background: url(image/portf_bg.jpg) no-repeat; width: 286px; height: 320px;}
+div.sub_pone img {margin-bottom: 30px; margin-left: 2px; margin-top: 2px;}
+div.sub_pone h3 {float: left; font-size: 40px; font-weight: bolder; color: #7EBD24; margin-left: 30px; margin-top: -15px; margin-right: 10px;}
+div.sub_pone h6 {font-size: 16px; color: black; font-weight: bold;}
+
+div.project_two {float: left; margin-left: 25px;}
+div.sub_ptwo {background: url(image/portf_bg.jpg) no-repeat; width: 286px; height: 320px;}
+div.sub_ptwo h3 {float: left; font-size: 40px; font-weight: bolder; color: #7EBD24; margin-left: 30px; margin-top: -15px; margin-right: 10px;}
+div.sub_ptwo h6 {font-size: 16px; color: black; font-weight: bold;}
+div.sub_ptwo img {margin-bottom: 30px; margin-left: 2px; margin-top: 2px;}
+div.project_three {float: left; margin-left: 25px;}
+div.sub_pthree {background: url(image/portf_bg.jpg) no-repeat; width: 286px; height: 320px;}
+div.sub_pthree img {margin-bottom: 30px; margin-left: 2px; margin-top: 2px;}
+div.sub_pthree h3 {float: left; font-size: 40px; font-weight: bolder; color: #7EBD24; margin-left: 30px; margin-top: -15px; margin-right: 10px;}
+div.sub_pthree h6 {font-size: 16px; color: black; font-weight: bold;}
+h3.project_ht {font-size: 22px; padding-left: 15px; margin-top: 10px;}
+h6.project_hs {font-size: 16px; margin-left: 30px; margin-top: -35px;}
+
+/*news*/
+div.news {overflow: hidden; height: 350px;}
+div.news h3 {margin-left: 38px; margin-bottom: 50px;}
+div.cool {background: url(image/news_bg.jpg) no-repeat; width: 430px; height: 200px; float: left; margin-left: 38px;}
+div.someone {background: url(image/news_bg.jpg) no-repeat; width: 430px; height: 200px; float: right; margin-right: 38px;}
+img.tweet_news {float: right; margin-right: 25px; margin-top: 30px;}
+h5.tweet_one {font-size: 18px; font-weight: normal; line-height: 1.5em; font-style: italic; margin-right: 60px; margin-top: 50px; color: black;}
+h3#fl_news {float: left; margin-left: 230px; font-size: 22px;}
+h3#fr_news {float: right; margin-right: 80px; font-size: 22px;}
+
+/*thin bottom*/
+div.thin_bottom {background: url(image/footer_style.jpg) no-repeat; height: 40px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; margin: 0 auto; width: 980px; position: relative;}
+div.bottom_tin {width: 100%; height: 90px; background-color: #262626;}
+div.bottom_tin img {float: right; border: none;}
+div.footer_shadow {background: url(image/footer_shadow.jpg) no-repeat; width: 980px; height: 50px; margin: 0 auto;}																
+
+/************** end footer ***************/
+div.footer {width: 100%; background-color: #262626;}
+div.footer_content {width: 980px; margin: 0 auto; overflow: hidden; padding-bottom: 30px;}
+div.footer_content h4 {font-size: 20px; color: white; font-weight: normal; text-shadow: 1px 1px 2px black;}
+div.use_link {float: left; margin-left: 20px;}
+div.use_link ul {margin-top: 35px;}
+div.use_link ul li {list-style: none; margin-top: 8px; }
+div.use_link ul li a {text-decoration: none; color: gray; font-family: tahoma; font-size: 13px;}
+div.use_link ul li a:hover {color: #80BE2B;}
+div.about_us_foot {float: left; margin-left: 40px; margin-right: 40px;}
+div.about_us_foot p {line-height: 1.6em; font-family: tahoma; font-size: 13px; color: gray;}
+div.about_us_foot p#foot_on {margin-top: 35px;}
+div.about_us_foot p#foot_to {margin-top: 25px;}
+div.tag_social {float: left; margin-right: 40px;}
+div.tag_button {margin-top: 35px; margin-bottom: 50px;}
+div.tag_button a {color: white; text-decoration: none; font-family: tahoma; font-size: 12px;}
+div.tag_button a#themes {background: url(image/tag_button_bg_hover.png) no-repeat; padding: 3px 40px 4px 10px;}
+div.tag_button a#web { background: url(image/tag_button_bg_small.png) no-repeat;padding: 3px 30px 4px 10px;}
+div.tag_button a#web:hover {background: url(image/tag_button_bg_small_hover.png) no-repeat;}
+
+div.tag_button a#business {background: url(image/tag_button_bg.png) no-repeat; padding: 3px 40px 4px 10px;}
+div.tag_button a#business:hover {background: url(image/tag_button_bg_hover.png) no-repeat;}
+
+div.tag_button a#net { background: url(image/tag_button_bg_small.png) no-repeat;padding: 3px 36px 4px 10px;}
+div.tag_button a#net:hover {background: url(image/tag_button_bg_small_hover.png) no-repeat;}
+
+div.tag_button a#money {background: url(image/tag_button_bg.png) no-repeat; padding: 3px 40px 4px 10px;}
+div.tag_button a#money:hover {background: url(image/tag_button_bg_hover.png) no-repeat;}
+
+div.tag_button a#portf { background: url(image/tag_button_bg.png) no-repeat; padding: 3px 40px 4px 10px; }
+div.tag_button a#portf:hover {background: url(image/tag_button_bg_hover.png) no-repeat;}
+
+div.tag_button a#team { background: url(image/tag_button_bg_small.png) no-repeat;padding: 3px 28px 4px 10px;}
+div.tag_button a#team:hover {background: url(image/tag_button_bg_small_hover.png) no-repeat;}
+
+div.tag_button a#club { background: url(image/tag_button_bg_small.png) no-repeat;padding: 3px 30px 4px 10px;}
+div.tag_button a#club:hover {background: url(image/tag_button_bg_small_hover.png) no-repeat;}
+
+div.tag_button a#meet {background: url(image/tag_button_bg.png) no-repeat; padding: 3px 40px 4px 10px;}
+div.tag_button a#meet:hover {background: url(image/tag_button_bg_hover.png) no-repeat;}
+
+div.social_icon {}
+div.social_icon h4 {margin-bottom: 35px;}
+div.social_icon a {padding: 10px;}
+div.social_icon a#twit { background: url(image/twitter_hover.png) no-repeat;}
+div.social_icon a#fb {background: url(image/facebook.png) no-repeat; margin-left: 20px;}
+div.social_icon a#fb:hover {background: url(image/facebook_hover.png) no-repeat;}
+div.social_icon a#in {background: url(image/in.png) no-repeat; margin-left: 20px;}
+div.social_icon a#in:hover {background: url(image/in_hover.png) no-repeat;}
+div.social_icon a#v {background: url(image/v.png) no-repeat; margin-left: 20px;}
+div.social_icon a#v:hover {background: url(image/v_hover.png) no-repeat;}
+div.social_icon a#flik {background: url(image/flicer.png) no-repeat; padding-right: 18px; margin-left: 20px;}
+div.social_icon a#flik:hover {background: url(image/flicer_hover.png) no-repeat;}
+div.social_icon a#feed {background: url(image/feed.png) no-repeat; margin-left: 20px;}
+div.social_icon a#feed:hover {background: url(image/feed_hover.png) no-repeat;}
+
+div.contact_subcribe {}
+div.contact_box {}
+div.contact_box h4 {margin-bottom: 30px;}
+div.contact_box p {padding-left: 20px; font-size: 13px; line-height: 1.6em; color: gray; font-family: tahoma;}
+div.contact_box p a {color: white; text-decoration: none; font-family: tahoma;}
+div.contact_box p a:hover {color: #80BE2B;}
+
+div.subcribe_box {margin-top: 70px;}
+div.subcribe_box h4 {margin-bottom: 20px;}
+div.subcribe_box input#in_text {padding: 10px 10px 12px 5px; background-color: #343434; border: none; font-family: tahoma; font-size: 13px; box-shadow: 0px 0px 1px black; color: white; float: left;}
+
+/*end*/
+div.end {width: 100%; background-color: #191919;}
+div.end_content {width: 980px; margin: 0 auto; height: 100px;}
+div.end_content img {margin-bottom: 10px;}
+div.end_content h2#end_tile {float: left; margin-right: 3px; color: white; font-weight: normal; margin-left: 230px;}
+div.end_content h2#end_d {float: left; background-color: #7EBD24; font-size: 24px; padding-left: 6px; padding-right: 6px; color: white;}
+div.end_content p#copy {float: left; margin-left: 20px; margin-top: 3px; color: gray;}
+div.end_content p#copy a {text-decoration: none; color: white;}
+div.end_content p#copy a:hover {color: #80BE2B;}
+div.end_content p#credit {float: left; margin-left: 20px; margin-top: 3px; color: gray;}
+div.end_content p#credit a {text-decoration: none; color: white;}
+div.end_content p#credit a:hover {color: #80BE2B;}
