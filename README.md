@@ -1,3 +1,3 @@
 # TileD
 
-This project not linking with Netlify.
+Simple html template
